@@ -1,6 +1,6 @@
 {
   "name": "react-hook-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cache object literal reference with a convinient hook",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,7 +25,7 @@
   },
   "license": "mpl-2.0",
   "files": [
-    "./lib/**/*"
+    "lib"
   ],
   "devDependencies": {
     "@testing-library/jest-dom": "5.16.4",

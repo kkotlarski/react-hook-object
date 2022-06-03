@@ -2,6 +2,14 @@
 
 An easy way to cache your inline object references.
 
+## Instalation
+
+```
+npm install --save react-hook-object
+```
+
+## Usage
+
 ```tsx
 import { useState } from "react";
 import { useObject } from "react-hook-object";
