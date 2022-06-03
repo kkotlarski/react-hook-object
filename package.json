@@ -1,0 +1,46 @@
+{
+  "name": "react-hook-object",
+  "version": "1.0.0",
+  "description": "Cache object literal reference with a convinient hook",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "object",
+    "object literal",
+    "typescript",
+    "reference cache"
+  ],
+  "author": "kkotlarski",
+  "repository": "kkotlarski/react-hook-object",
+  "homepage": "https://github.com/kkotlarski/react-hook-object#readme",
+  "bugs": {
+    "url": "https://github.com/kkotlarski/react-hook-object/issues"
+  },
+  "license": "mpl-2.0",
+  "files": [
+    "./lib/**/*"
+  ],
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "13.3.0",
+    "@types/jest": "27.5.1",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.5",
+    "jest": "28.1.0",
+    "jest-environment-jsdom": "28.1.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "ts-jest": "28.0.3",
+    "typescript": "4.7.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  }
+}
